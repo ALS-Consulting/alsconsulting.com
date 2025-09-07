@@ -1,0 +1,33 @@
+# Site settings
+title: ALS Consulting
+email: contact@alsconsulting.com
+description: >- # this means to ignore newlines until "baseurl:"
+  Professional consulting services coming soon. We specialize in delivering
+  innovative solutions for your business needs.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://alsconsulting.com" # the base hostname & protocol for your site
+twitter_username:
+github_username:
+
+# Build settings
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Site configuration
+show_excerpts: false
