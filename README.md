@@ -71,8 +71,8 @@ The email form currently shows a simple alert. To integrate with a real email se
 │   ├── coming-soon.html  # Main page layout
 │   └── policy.html       # Policy page layout
 ├── index.html            # Homepage
+├── sms-policy.html
 ├── 404.html             # 404 error page
-├── sms-policy.md        # Example policy page
 ├── Gemfile              # Ruby dependencies
 └── CNAME                # Custom domain configuration
 ```
